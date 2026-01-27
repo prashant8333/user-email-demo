@@ -262,4 +262,24 @@ This keeps the main branch stable and prevents conflicts.
 * Use `.env.example` for sharing environment variable format.
 * Keep feature branches small and focused.
 
+---
+
+## 10. Deployment
+
+This project is ready to deploy to Render.com's free tier!
+
+📖 **[View Complete Deployment Guide →](DEPLOYMENT.md)**
+
+### Quick Deploy Summary:
+1. Push code to GitHub
+2. Sign up at [render.com](https://render.com)
+3. Connect your repository
+4. Set environment variables (SendGrid API key, sender email)
+5. Deploy!
+
+Your app will be live at `https://your-app-name.onrender.com`
+
+For detailed step-by-step instructions, troubleshooting, and best practices, see **[DEPLOYMENT.md](DEPLOYMENT.md)**.
+
 ```
+
