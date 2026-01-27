@@ -1,11 +1,10 @@
 services:
   - type: web
     name: email-automation
-    env: python
-    region: oregon
+    runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn run:app
+    startCommand: gunicorn --bind 0.0.0.0:$PORT run:app
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
@@ -18,4 +17,4 @@ services:
       - key: SECRET_KEY
         generateValue: true
     healthCheckPath: /ping
-    autoDeploy: true
+
