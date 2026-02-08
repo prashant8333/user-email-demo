@@ -1,0 +1,12 @@
+Flask
+sendgrid
+Jinja2
+python-dotenv
+requests
+flask-sqlalchemy
+pandas
+openpyxl
+APScheduler
+gunicorn
+
+
