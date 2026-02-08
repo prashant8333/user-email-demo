@@ -1,3 +1,11 @@
-flask
+Flask
+sendgrid
+Jinja2
+python-dotenv
+requests
+flask-sqlalchemy
 pandas
+openpyxl
+APScheduler
 gunicorn
+psycopg2-binary
